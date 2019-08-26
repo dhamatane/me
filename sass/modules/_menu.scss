@@ -1,0 +1,25 @@
+.nav-item {
+  display: inline-block;
+  a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    &::after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: rgb(58, 121, 204);
+      transition: width .3s;
+    }
+
+    &:hover::after {
+      width: 100%;
+      transition: width .3s;
+    }
+  }
+}

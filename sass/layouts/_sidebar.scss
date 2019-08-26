@@ -1,0 +1,12 @@
+.sidebar {
+  background: #3FB58E;
+  color: white;
+  font-family: "Open Sans";
+
+  .content {
+    position: fixed !important;
+    top: 0;
+    left: 2em;
+    width: 16em;
+  }
+}
