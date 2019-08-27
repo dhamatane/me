@@ -1,0 +1,45 @@
+let resumeData = {
+  "name": "Hamatane Diallo",
+  "image": "%public/images/ahmas2011.jpg",
+  "role": "Self-taught Front Developper",
+  "linkedinId": "Id",
+  "roleDescription": "passionate, curious, rigorous, I love simple, robust, attractive and fast applications",
+  "contact": [
+    {
+      "email": "dhamatane@gmail.com",
+      "className": "fa fa-envelope-square"
+    },
+    {
+      "phone": "+225 49 262 943",
+      "className": "fa fa-phone"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/hamatane-diallo-6940a8166/",
+      "className": "fa fa-linkedin"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/dhamatane",
+      "className": "fa fa-github"
+    }
+  ],
+  "skills": [
+    {
+      "skillName": "CSS"
+    },
+    {
+      "skillName": "HTML"
+    },
+    {
+      "skillName": "Javascript"
+    },
+    {
+      "skillName": "PHP"
+    }
+  ]
+}
+
+export default resumeData;
