@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skill extends Component {
   render() {
     return(
-      <div className="skill p-2 rounded">
+      <div className="skill rounded">
         <h4>HTML</h4>
 
         <div className="progress">

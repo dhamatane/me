@@ -3,12 +3,13 @@ import React, { Component } from 'react';
 
 class Intro extends Component {
   render() {
+    let resumeData = this.props.resumeData;
     return(
       <div className="container mt-5 intro" id="intro">
         <div className="text-center">
-          <h1>I am Hamatane Diallo</h1>
+          <h1>I am {resumeData.name}</h1>
           <p className="lead">
-            Self-taught web developper, passionate, curious, rigorous, I love simple, robust, attractive and fast applications.
+            {resumeData.roleDescription}
           </p>
           <hr className="separetor"></hr>
           <a href="#" className="mr-4"><i className="fa fa-linkedin"></i></a>

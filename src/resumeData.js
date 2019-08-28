@@ -1,6 +1,6 @@
 let resumeData = {
   "name": "Hamatane Diallo",
-  "image": "%public/images/ahmas2011.jpg",
+  "imageSrc": "images/ahmas2011.jpg",
   "role": "Self-taught Front Developper",
   "linkedinId": "Id",
   "roleDescription": "passionate, curious, rigorous, I love simple, robust, attractive and fast applications",
@@ -38,6 +38,15 @@ let resumeData = {
     },
     {
       "skillName": "PHP"
+    },
+    {
+      "skillName": "Bootstrap"
+    },
+    {
+      "skillName": "ReactJs"
+    },
+    {
+      "skillName": "Laravel"
     }
   ]
 }
