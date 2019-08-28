@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 class Intro extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    let socialLinks = resumeData.socialLinks;
     return(
       <div className="container mt-5 intro" id="intro">
         <div className="text-center">
