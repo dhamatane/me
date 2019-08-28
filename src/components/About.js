@@ -26,8 +26,8 @@ class About extends Component {
               <h4>CSS</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                  95%
+                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  90%
                 </div>
               </div>
             </div>
@@ -58,8 +58,8 @@ class About extends Component {
               <h4>Bootstrap</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  90%
+                <div className="progress-bar" style={{ width: "85%" }} aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  85%
                 </div>
               </div>
             </div>
@@ -67,8 +67,8 @@ class About extends Component {
             <div className="skill p-2 mt-3 rounded">
               <h4>ReactJs</h4>
               <div className="progress">
-                <div className="progress-bar" style={{ width: "30%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                  30%
+                <div className="progress-bar" style={{ width: "10%" }} aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                  10%
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ class About extends Component {
             <div className="skill p-2 mt-3 rounded">
               <h4>Laravel</h4>
               <div className="progress">
-                <div className="progress-bar" style={{ width: "50%" }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  50%
+                <div className="progress-bar" style={{ width: "30%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  30%
                 </div>
               </div>
             </div>
@@ -91,8 +91,8 @@ class About extends Component {
               <h4>Mysql</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  75%
+                <div className="progress-bar" style={{ width: "55%" }} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+                  55%
                 </div>
               </div>
             </div>
@@ -101,8 +101,8 @@ class About extends Component {
               <h4>Eloquent</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  75%
+                <div className="progress-bar" style={{ width: "15%" }} aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                  15%
                 </div>
               </div>
             </div>
@@ -111,8 +111,8 @@ class About extends Component {
               <h4>Doctrine</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  75%
+                <div className="progress-bar" style={{ width: "30%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  30%
                 </div>
               </div>
             </div>
@@ -125,8 +125,8 @@ class About extends Component {
               <h4>Git/Github</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  70%
+                <div className="progress-bar" style={{ width: "30%" }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                  30%
                 </div>
               </div>
             </div>
@@ -135,8 +135,8 @@ class About extends Component {
               <h4>Vs Code</h4>
 
               <div className="progress">
-                <div className="progress-bar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  90%
+                <div className="progress-bar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  70%
                 </div>
               </div>
             </div>
