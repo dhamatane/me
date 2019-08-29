@@ -10,7 +10,11 @@ class Intro extends Component {
         <div className="text-center">
           <h1>I am {resumeData.name}</h1>
           <p className="lead">
+            {resumeData.role}
+            {" "}
             {resumeData.roleDescription}
+            <br></br>
+            {resumeData.goals}
           </p>
           <hr className="separetor"></hr>
           <a href="#" className="mr-4"><i className="fa fa-linkedin"></i></a>

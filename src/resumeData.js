@@ -2,8 +2,9 @@ let resumeData = {
   "name": "Hamatane Diallo",
   "imageSrc": "images/ahmas2011.jpg",
   "role": "Self-taught Front Developper",
-  "linkedinId": "Id",
+  "goals": "I want to be a full-stack developper able to developp web and mobile applications",
   "roleDescription": "passionate, curious, rigorous, I love simple, robust, attractive and fast applications",
+  "linkedinId": "Id",
   "contact": [
     {
       "email": "dhamatane@gmail.com",
