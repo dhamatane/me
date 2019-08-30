@@ -7,7 +7,7 @@ class Header extends Component {
     let resumeData = this.props.resumeData;
 
     return (
-      <div className="text-center content">
+      <div className="text-center sticky-left">
         <Me resumeData={resumeData}/>
         <Menu resumeData={resumeData}/>
         <p className="mt-5">Copyright By Ahmas</p>

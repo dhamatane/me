@@ -3,10 +3,12 @@
   color: white;
   font-family: "Open Sans";
 
-  .content {
-    position: fixed !important;
+  .sticky-left {
+    position: sticky;
+    -webkit-position: sticky;
     top: 0;
-    left: 2em;
-    width: 16em;
+    left: 0;
+    // left: 2em;
+    // width: 16em;
   }
 }

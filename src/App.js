@@ -11,11 +11,11 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-2 sidebar">
+          <div className="col-xs-12 col-sm-12 col-md-2 col-lg-2 sidebar">
             <SideBar resumeData={resumeData}/>
           </div>
 
-          <div className="col-10 main pb-5">
+          <div className="col-xs-12 col-sm-12 col-md-10 col-lg-10 main pb-5">
             <Intro resumeData={resumeData}/>
             <About resumeData={resumeData}/>
           </div>

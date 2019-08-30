@@ -9,7 +9,7 @@ class Intro extends Component {
       <div className="container mt-5 intro" id="intro">
         <div className="text-center">
           <h1>I am {resumeData.name}</h1>
-          <p className="lead">
+          <p className="mt-5">
             {resumeData.role}
             {" "}
             {resumeData.roleDescription}

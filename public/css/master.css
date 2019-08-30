@@ -90,6 +90,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Roboto', sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+  /* line 2, ../../sass/layouts/_responsive.scss */
+  .intro {
+    padding: 60px 0 !important;
+  }
+  /* line 5, ../../sass/layouts/_responsive.scss */
+  .intro a {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  /* line 8, ../../sass/layouts/_responsive.scss */
+  .intro h1 {
+    font-size: 4rem !important;
+  }
+
+  /* line 10, ../../sass/layouts/_responsive.scss */
+  .main h2 {
+    font-size: 2rem !important;
+    font-family: 'Baloo Bhai', cursive;
+  }
+
+  /* line 12, ../../sass/layouts/_responsive.scss */
+  #skills h3 {
+    font-size: 1.1rem !important;
+  }
+}
 /* line 1, ../../sass/layouts/_sidebar.scss */
 .sidebar {
   background: #3FB58E;
@@ -97,11 +124,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "Open Sans";
 }
 /* line 6, ../../sass/layouts/_sidebar.scss */
-.sidebar .content {
-  position: fixed !important;
+.sidebar .sticky-left {
+  position: sticky;
+  -webkit-position: sticky;
   top: 0;
-  left: 2em;
-  width: 16em;
+  left: 0;
 }
 
 /* line 1, ../../sass/layouts/_main.scss */
@@ -159,4 +186,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../../sass/modules/_skills.scss */
 .skill {
   background: rgba(66, 66, 66, 0.5) !important;
+}
+
+/* line 2, ../../sass/modules/_skills.scss */
+.skill h4 {
+  font-size: 1rem;
 }
