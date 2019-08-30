@@ -106,15 +106,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-size: 4rem !important;
   }
 
-  /* line 10, ../../sass/layouts/_responsive.scss */
+  /* line 9, ../../sass/layouts/_responsive.scss */
   .main h2 {
     font-size: 2rem !important;
     font-family: 'Baloo Bhai', cursive;
   }
 
-  /* line 12, ../../sass/layouts/_responsive.scss */
+  /* line 10, ../../sass/layouts/_responsive.scss */
   #skills h3 {
     font-size: 1.1rem !important;
+  }
+
+  /* line 11, ../../sass/layouts/_responsive.scss */
+  .skill h4 {
+    font-size: 1rem;
   }
 }
 /* line 1, ../../sass/layouts/_sidebar.scss */
@@ -186,9 +191,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 1, ../../sass/modules/_skills.scss */
 .skill {
   background: rgba(66, 66, 66, 0.5) !important;
-}
-
-/* line 2, ../../sass/modules/_skills.scss */
-.skill h4 {
-  font-size: 1rem;
 }
