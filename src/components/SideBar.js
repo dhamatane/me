@@ -10,7 +10,7 @@ class Header extends Component {
       <div className="text-center sticky-left">
         <Me resumeData={resumeData}/>
         <Menu resumeData={resumeData}/>
-        <p className="mt-5">Copyright By Ahmas</p>
+        <p className="mt-5 mb-2">Copyright By Ahmas</p>
       </div>
     )
   };
