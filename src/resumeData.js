@@ -11,7 +11,7 @@ let resumeData = {
       "className": "fa fa-envelope-square"
     },
     {
-      "phone": "+225 49 262 943",
+      "phone": "+225 050 646 66 61",
       "className": "fa fa-phone"
     }
   ],
